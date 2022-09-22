@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;800;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +7,7 @@
 }
 
 html{
-    font-family: sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 header{
@@ -65,5 +67,52 @@ ul > img{
     color: white;
 }
 /*             */
+
+.section-1{
+    background-color: #B4D0E7;
+}
+.jumbo{
+    width: 70%;
+    margin: 0 auto;
+    
+    
+}
+
+.title-container{
+    padding: 40px;
+    font-size: 50px;
+    
+}
+
+.p-container{
+    
+    width: 83%;
+    padding-left: 40px;
+    
+}
+
+.btn-trial{
+    width: 230px;
+    height: 50px;
+    border: none;
+    background-color: #0061FF;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    
+}
+
+div i{
+    font-size: 50px;
+    padding-top: 150px;
+}
+
+.jumbo-img{
+    width: 61%;
+    
+    
+}
+
 
 
