@@ -51,7 +51,7 @@ main{
     justify-content: space-around;
 }
 
-a{
+.link-header{
     text-decoration: none;
     color: #828282;
 }
@@ -106,13 +106,26 @@ ul > img{
     color: white;
     margin-top: 30px;
     margin-bottom: 30px;
-    font-size: 20px;
+    font-size: 18px;
     
 }
 
-div i{
+.btn-trial2{
+    width: 260px;
+    height: 50px;
+    border: none;
+    background-color: #0061FF;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    
+}
+
+.p-container > i{
     font-size: 50px;
     padding-top: 150px;
+    padding-bottom: 30px;
 }
 
 .jumbo-img{
@@ -146,16 +159,16 @@ input{
 }
 
 .column{
-    height: 800px;
+    
     flex-basis: 30%;
-    border: 1px solid black;
+    border: 1px solid darkgray;
 }
 
 .icon-container{
-    height: 40px;
-    width: 100%;
-    border: 1px solid black;
-    position: relative;
+    
+    text-align: center;
+    border: 1px solid lightgray;
+    
 }
 
 .h1-column{
@@ -166,3 +179,50 @@ input{
     padding: 0 30px;
 }
 
+.price{
+    font-weight: bold;
+}
+
+.list-container{
+    padding: 30px;
+}
+
+.list-column > li{
+    padding-top: 20px;
+    font-size: 15px;
+    text-indent: -10px;
+    padding-left: 1.2em;
+}
+
+.h1-column > h3{
+    font-size: 25px;
+}
+
+.btn-container{
+    padding: 30px;
+}
+
+.padding30{
+    padding: 30px;
+}
+
+.alt{
+    padding: 0px 30px;
+    margin-bottom: 45px;
+}
+
+.line-break{
+    background-color: lightgray;
+    width: 18%;
+    height: 2px;
+    margin: 30px;
+}
+
+.fa-check{
+    color: blue;
+    
+}
+
+.month{
+    color: darkgray;
+}
