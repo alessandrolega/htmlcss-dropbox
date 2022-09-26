@@ -31,6 +31,10 @@ main{
     display: flex;
 }
 
+.f-just-center{
+    justify-content: center;
+}
+
 .f-space-start{
     justify-content: flex-start;
 }
@@ -310,3 +314,203 @@ input{
 .section-top{
     margin-top: 80px;
 }
+
+.fivek{
+    margin-top: 200px;
+}
+
+.link-cont{
+    margin-top: 50px;
+}
+
+.box-col-main{
+    margin-top: 100px;
+
+    
+}
+
+.box-column1{
+    width: calc( 100vw / 3);
+    height: calc( 100vw / 3);
+}
+
+.box-column2{
+    width: calc( 100 / 3);
+    height: calc( 100vw / 3);
+}
+
+.box{
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+    
+}
+
+.box > img{
+    width: 50%;
+    height: 50%;
+    filter: invert(1);
+}
+
+.florida > img{
+    width: 30%;
+    height: 30%;
+}
+
+
+
+
+.sect-bring{
+    background-color: #b4d0e7;
+}
+
+.bring-comp{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.bring-text{
+    flex-basis: 60%;
+    font-size: 25px;
+    
+}
+
+.btn-bring{
+    flex-basis: 40%;
+    width: 100%;
+}
+
+.start{
+    width: 70%;
+    height: 40px;
+    border: none;
+}
+
+.bring-text > h2{
+    color: #61082B;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.box-green{
+    background-color: #A2D39B;
+}
+
+.box-red{
+    background-color: #61082B;
+}
+
+.box-blue{
+    background-color: #0093CE;
+}
+
+.box-orange{
+    background-color: #FF1C1C;
+}
+
+.box-column2{
+    background-color: #F5F5F5;
+    padding: 50px;
+    width: 42%;
+}
+
+.box-darkred{
+    background-color: #D5001F;
+}
+
+.box-lightblue{
+    background-color: #B4D0E7;
+}
+
+.box-darkblue{
+    background-color: #0D2481;
+}
+
+.box-yellow{
+    background-color: #FFD830;
+}
+
+.box > img{
+    justify-content: center;
+    align-items: center;
+}
+
+.breakline{
+    width: 30% ;
+    height: 20px;
+    color: blue;
+}
+
+.faq-cont{
+    padding-top: 100px;
+}
+
+.faq-cont > h2{
+    font-size: 35px;
+}
+
+.break{
+    margin-top: 50px;
+    width: 100%;
+    height: 2px;
+    background-color: grey;
+    margin-bottom: 50px;
+}
+
+footer{
+    background-color: black;
+    padding-bottom: 50px;
+}
+
+.footer-list{
+    color: white;
+    padding-top: 100px;
+    font-size: 25px;
+}
+
+.li-white{
+    color: white;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.break2{
+    margin-top: 50px;
+    width: 80%;
+    height: 2px;
+    background-color: grey;
+    margin-bottom: 50px;
+}
+
+.fa-earth-americas, .lang{
+    color: grey;
+}
+
+.main-container2{
+    width: 60%;
+    margin: auto;
+}
+
+.faq-text{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.faq-text > p{
+    display: none;
+}
+
+.footer-icon{
+    margin-top: 50px;
+}
+
+#hr-final{
+    margin-bottom: 150px;
+}
+
+
+
+
+
