@@ -35,13 +35,6 @@ main{
     justify-content: center;
 }
 
-.f-space-start{
-    justify-content: flex-start;
-}
-
-.f-flex-end{
-    justify-content: flex-end;
-}
 
 .f-space-between{
     justify-content: space-between;
@@ -51,9 +44,6 @@ main{
     align-items: center;
 }
 
-.f-space-around{
-    justify-content: space-around;
-}
 
 .link-header{
     text-decoration: none;
@@ -63,7 +53,7 @@ main{
 ul li{
     list-style: none;
     display: inline-block;
-    margin: 0 5px
+    margin: 0 10px
 }
 
 ul > img{
@@ -77,7 +67,7 @@ ul > img{
     background-color: #0061FF;
     color: white;
 }
-/*             */
+/*   JUMBO          */
 
 .section-1{
     background-color:#B4D0E7;
@@ -94,25 +84,12 @@ ul > img{
 }
 
 .p-container{
-    
     width: 83%;
     padding-left: 40px;
     
 }
 
-.btn-trial{
-    width: 230px;
-    height: 50px;
-    border: none;
-    background-color: #0061FF;
-    color: white;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-size: 18px;
-    
-}
-
-.btn-trial2{
+.btn-trial, .btn-trial2{
     width: 100%;
     height: 50px;
     border: none;
@@ -132,20 +109,12 @@ ul > img{
 
 .jumbo-img{
     width: 61%;
-    
-    
 }
 
 .main-container{
     width: 60%;
     margin: auto;
-    
-    
     margin-top: 50px;
-}
-
-.title-2-container{
-    
 }
 
 .input-container{
@@ -170,7 +139,6 @@ input{
     width: 100%;
     text-align: center;
     border: 1px solid lightgray;
-    
 }
 
 .h1-column{
@@ -298,6 +266,8 @@ input{
     width: 100%;
 }
 
+/* BOX COLORATI */
+
 .box-green{
     background-image: url('../img/designit.svg');
     background-size: 50%;
@@ -376,14 +346,16 @@ input{
     margin-top: 200px;
 }
 
+.fivek > h2{
+    font-size: 50px;
+}
+
 .link-cont{
     margin-top: 50px;
 }
 
 .box-col-main{
     margin-top: 100px;
-
-    
 }
 
 .box-column1{
@@ -396,11 +368,14 @@ input{
     height: calc( 100vw / 3);
 }
 
+#morten{
+    padding-top: 50px;
+}
+
 .box{
     width: 50%;
     height: 50%;
     background-color: aqua;
-    
 }
 
 .box > img{
@@ -414,9 +389,6 @@ input{
     height: 30%;
 }
 
-
-
-
 .sect-bring{
     background-color: #b4d0e7;
 }
@@ -429,7 +401,6 @@ input{
 .bring-text{
     flex-basis: 60%;
     font-size: 25px;
-    
 }
 
 .btn-bring{
@@ -506,6 +477,7 @@ input{
 
 .faq-cont > h2{
     font-size: 35px;
+    margin-bottom: 50px;
 }
 
 .break{
@@ -515,6 +487,12 @@ input{
     background-color: grey;
     margin-bottom: 50px;
 }
+
+#hr-final{
+    margin-bottom: 150px;
+}
+
+/* FOOTER */
 
 footer{
     background-color: black;
@@ -564,8 +542,12 @@ footer{
     margin-top: 50px;
 }
 
-#hr-final{
-    margin-bottom: 150px;
+.lang{
+    text-align: center;
+}
+
+.lang > .fa-caret-up{
+    text-align: center;
 }
 
 
@@ -582,7 +564,7 @@ footer{
     
 }
 
-.btn-trial:hover, .btn-trial2:hover{
+.btn-trial:hover, .btn-trial2:hover, .btn-start:hover{
     background-color: lightskyblue;
     cursor: pointer;
 }
