@@ -500,6 +500,7 @@ footer{
 
 .faq-text > p{
     display: none;
+    padding-top: 40px;
 }
 
 .footer-icon{
@@ -508,6 +509,13 @@ footer{
 
 #hr-final{
     margin-bottom: 150px;
+}
+
+
+
+
+.faq-text:hover p{
+    display: block;
 }
 
 
