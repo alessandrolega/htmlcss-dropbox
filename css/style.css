@@ -298,6 +298,63 @@ input{
     width: 100%;
 }
 
+.box-green{
+    background-image: url('../img/designit.svg');
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.box-red{
+    background-image: url('../img/arizona_state_university.svg');
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box-blue{
+    background-image: url('../img/university_of_florida.svg');
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box-orange{
+    background-image: url('../img/topps.svg');
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box-darkred{
+    background-image: url('../img/world_bicycle_relief.svg');
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box-lightblue{
+    background-image: url('../img/hearst_corp.svg');
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box-darkblue{
+    background-image: url('../img/lonely_planet.svg');
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box-yellow{
+    background-image: url('../img/clear_channel.svg');
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .box-img > h4{
     font-size: 20px;
 }
@@ -514,9 +571,29 @@ footer{
 
 
 
+/* HOVERS */
+
 .faq-text:hover p{
     display: block;
 }
+
+.faq-text:hover .fa-chevron-down{
+    transform: rotate(3.142rad);
+    
+}
+
+.btn-trial:hover, .btn-trial2:hover{
+    background-color: lightskyblue;
+    cursor: pointer;
+}
+
+.btn-partner:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+
+
 
 
 
